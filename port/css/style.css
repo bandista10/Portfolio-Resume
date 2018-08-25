@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono');
+
+html, body{
+    background: rgb(245, 242, 242);
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #222;
+}
+
+.navbar{
+    opacity: .8;
+    padding: .9rem;
+    border-bottom: 2px solid rgb(47, 45, 43)
+}
+
+strong{
+   
+    font-size: 1.8rem;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 600;
+    color: rgb(11, 150, 230);
+    text-transform: uppercase;
+    text-shadow: 2px 2px #222; 
+}
+
+.navbar-nav li{
+    padding-right: 15px;   
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.931) !important;
+    text-transform: uppercase;
+    transition: color .3s ease-in;   
+}  
+.nav-link:hover{
+    color: #333 !important;
+}
+
+.carousel-inner{
+    max-width: 100%;
+    max-height: 1100px !important;
+ }
+
+.carousel-inner img{
+    width: 100%; 
+    height: 100%;
+    opacity: .9;  
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+
+.carousel-caption h1{
+    font-size: 5rem;
+    color: rgb(11, 150, 230);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 3px 3px rgb(58, 50, 52);
+    letter-spacing: 4px;
+  
+}
+.lead{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.1rem;
+    padding: .5rem;
+    text-shadow: 2px 1px rgb(33, 39, 38);
+}
+
+.start{
+    margin-left: .5rem;
+}
+
+.fa{
+    margin-right: .5rem;
+}
+
+#intro{
+    margin-top: 20px;
+}
+
+/* My Resume Modal */
+
+.my_name{
+    background: #0077B5;
+    color: #d5d5dd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.my_resume{
+    line-height: .6;
+}
+
+.my_info{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn_ko{
+    width: 100px;   
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border-radius: 10px 10px;
+    outline: none;
+}
+
+#intro a{
+    text-decoration: none;
+}
+.img-fluid{
+    height: 600px;
+    box-shadow: 5px 10px 8px #888888;
+    opacity: .9;
+    transition: opacity 1s ease-in; 
+}
+
+.img-fluid:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.about-me{
+    color: rgb(11, 180, 129);
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 2px 3px #222;
+    position: absolute;
+    border-bottom: 4px solid rgb(59, 54, 45);
+    padding-bottom: 2px;
+}
+
+#about p{
+    font-size: 18px;
+    color: #000;
+}
+
+.fa-facebook-square,
+.fa-youtube,
+.fa-github,
+.fa-linkedin,
+.fa-google-plus-g{
+   color: #fff;
+   font-weight: 300;
+   background: rgb(51, 50, 50);
+   text-align: center;
+   padding: .5rem;
+   border: 1px solid #000; 
+   border-radius: 50px;
+   transition: color 1s ease;
+}
+
+.fa-facebook-square:hover{
+    color: rgb(25, 135, 226);
+}
+.fa-youtube:hover{
+    color: red;
+}
+ 
+.fa-github:hover{
+    color: #6e5494;
+}
+
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+
+.fa-google-plus-g:hover{
+    color: #d34836;
+}
+#services{
+    text-align: center;
+    color: rgb(11, 180, 129);
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 2px 2px #222;
+    padding-bottom: 30px;    
+}
+
+.service{
+    display: inline-block;
+    border-bottom: 4px solid #333;
+    padding-bottom: 2px;  
+}
+
+.type-3{
+    color: rgb(0, 217, 255);
+    text-shadow: 1px 1px #222;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.fas{
+    display: block;
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(25, 135, 226);
+    font-weight: 600;
+    padding-bottom: 35px;
+    margin: 40px 0 20px 0;
+    text-shadow: 2px 2px #222;
+}
+.fa-check{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px;
+    background: #222;
+}
+
+i, .fa-check:hover{
+    color: #fff;
+}
+
+#mywork{
+    text-align: center;
+    color: rgb(11, 180, 129);
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 2px 2px #222;
+    padding-bottom: 20px;
+}
+
+.work{
+    display: inline-block;
+    border-bottom: 4px solid #333;
+    padding-bottom: 2px; 
+}
+
+.numbers{
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    color: #e8f8f3;
+    display: inline-block;
+    border: 2px solid rgb(219, 191, 32);
+    border-radius: 50%;
+    background: rgb(73, 70, 70);
+}
+
+.app_name{
+    color: #222;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.ako{
+    width: 150px;
+    height: auto;
+    border-radius: 10px 10px;
+}
+.my-card{
+    box-sizing: border-box;
+    box-shadow: 4px 3px rgba(0,0,0,0.5);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.my-card:hover{
+    opacity: 1;
+}
+
+#contact{
+    text-align: center;
+    color: rgb(11, 180, 129);
+    font-weight: 600;
+    font-size: 3rem;
+    text-shadow: 2px 2px #222;
+    padding-bottom: 20px;
+}
+
+.personal-contact{
+    display: inline-block;
+    border-bottom: 4px solid #333;
+    padding-bottom: 2px; 
+}
+
+.img-thumbnail{
+  height: 200px;  
+  border-radius: 10px 10px;  
+  box-sizing: border-box;
+  box-shadow: 2px 2px rgb(62, 68, 71); 
+}
+
+.figure-img{
+    width: 250px;
+    height: 250px;
+    opacity: .9;
+    cursor: pointer;
+    border: 1px solid #222;   
+}
+
+.juls{
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(25, 135, 226);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.info{
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
+
+footer{
+    background: #222;
+    color: #fff;
+    opacity: .9;
+}
+
+.footer_info p{
+   line-height: .7;
+}
+
+hr.lines{
+    width: 100%;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5 !important;
+    width: 50% !important;
+}
+
+.my-fa{
+    border: 2px solid #d5d5d5;   
+}
+
+.my-fa:hover{
+    color: rgb(185, 124, 10);
+}
+
+a.email-ko{
+    color: #2dd9e6;
+    text-decoration: none;
+}
+
+/*THIS IS PADDING*/
+
+.padding{
+    padding-top: 90px;  
+}
+/*Meduia Query*/
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
+/*bootstrap padding*/
