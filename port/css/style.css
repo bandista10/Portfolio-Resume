@@ -57,8 +57,6 @@ strong{
     top: 60%;
     transform: translateY(-60%);
 }
-
-
 .carousel-caption h1{
     font-size: 5rem;
     color: rgb(11, 150, 230);
@@ -66,7 +64,6 @@ strong{
     font-weight: 600;
     text-shadow: 3px 3px rgb(58, 50, 52);
     letter-spacing: 4px;
-  
 }
 .lead{
     text-transform: uppercase;
@@ -152,7 +149,7 @@ strong{
 .fa-youtube,
 .fa-github,
 .fa-linkedin,
-.fa-google-plus-g{
+.fa-google-plus{
    color: #fff;
    font-weight: 300;
    background: rgb(51, 50, 50);
@@ -178,7 +175,7 @@ strong{
     color: #0077B5;
 }
 
-.fa-google-plus-g:hover{
+.fa-google-plus:hover{
     color: #d34836;
 }
 #services{
@@ -359,9 +356,40 @@ a.email-ko{
 
 }
 @media (max-width: 768px){
-
+    .carousel-caption h1{
+        font-size: 2rem;
+        color: rgb(11, 150, 230);
+        text-transform: uppercase;
+        font-weight: 600;
+        text-shadow: 2px 2px rgb(58, 50, 52);  
+    }
+    .lead{
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        font-size: .8rem;
+        padding: .2rem;
+        text-shadow: 2px 1px rgb(33, 39, 38);
+    }
+    .start{
+        margin-left: .3rem;
+        font-size: 10px;
+    }
+    #intro{
+        margin-top: 10px;
+    }
+    .welcome{
+        font-size: 2.9rem;
+    }
+    .padding{
+        padding-top: 50px;  
+    }
+    .footer_info p{
+        line-height: 1.1;
+     }
+     
 }
 @media (max-width: 576px){
-
+    
 }
 /*bootstrap padding*/
