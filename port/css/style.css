@@ -17,17 +17,17 @@ html, body{
 }
 
 strong{
-   
+
     font-size: 1.8rem;
     font-family: 'Share Tech', sans-serif;
     font-weight: 600;
     color: rgb(11, 150, 230);
     text-transform: uppercase;
-    text-shadow: 2px 2px #222; 
+    text-shadow: 2px 2px #222;
 }
 
 .navbar-nav li{
-    padding-right: 15px;   
+    padding-right: 15px;
 }
 
 .nav-link{
@@ -35,8 +35,8 @@ strong{
     font-weight: 600;
     color: rgba(255, 255, 255, 0.931) !important;
     text-transform: uppercase;
-    transition: color .3s ease-in;   
-}  
+    transition: color .3s ease-in;
+}
 .nav-link:hover{
     color: #333 !important;
 }
@@ -47,9 +47,9 @@ strong{
  }
 
 .carousel-inner img{
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    opacity: .9;  
+    opacity: .9;
 }
 
 .carousel-caption{
@@ -107,7 +107,7 @@ strong{
 }
 
 .btn_ko{
-    width: 100px;   
+    width: 100px;
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: 5px;
@@ -122,7 +122,7 @@ strong{
     height: 600px;
     box-shadow: 5px 10px 8px #888888;
     opacity: .9;
-    transition: opacity 1s ease-in; 
+    transition: opacity 1s ease-in;
 }
 
 .img-fluid:hover{
@@ -155,7 +155,7 @@ strong{
    background: rgb(51, 50, 50);
    text-align: center;
    padding: .5rem;
-   border: 1px solid #000; 
+   border: 1px solid #000;
    border-radius: 50px;
    transition: color 1s ease;
 }
@@ -166,7 +166,7 @@ strong{
 .fa-youtube:hover{
     color: red;
 }
- 
+
 .fa-github:hover{
     color: #6e5494;
 }
@@ -184,13 +184,13 @@ strong{
     font-weight: 600;
     font-size: 3rem;
     text-shadow: 2px 2px #222;
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
 }
 
 .service{
     display: inline-block;
     border-bottom: 4px solid #333;
-    padding-bottom: 2px;  
+    padding-bottom: 2px;
 }
 
 .type-3{
@@ -235,7 +235,7 @@ i, .fa-check:hover{
 .work{
     display: inline-block;
     border-bottom: 4px solid #333;
-    padding-bottom: 2px; 
+    padding-bottom: 2px;
 }
 
 .numbers{
@@ -284,14 +284,14 @@ i, .fa-check:hover{
 .personal-contact{
     display: inline-block;
     border-bottom: 4px solid #333;
-    padding-bottom: 2px; 
+    padding-bottom: 2px;
 }
 
 .img-thumbnail{
-  height: 200px;  
-  border-radius: 10px 10px;  
+  height: 200px;
+  border-radius: 10px 10px;
   box-sizing: border-box;
-  box-shadow: 2px 2px rgb(62, 68, 71); 
+  box-shadow: 2px 2px rgb(62, 68, 71);
 }
 
 .figure-img{
@@ -299,7 +299,7 @@ i, .fa-check:hover{
     height: 250px;
     opacity: .9;
     cursor: pointer;
-    border: 1px solid #222;   
+    border: 1px solid #222;
 }
 
 .juls{
@@ -334,7 +334,7 @@ hr.light{
 }
 
 .my-fa{
-    border: 2px solid #d5d5d5;   
+    border: 2px solid #d5d5d5;
 }
 
 .my-fa:hover{
@@ -349,7 +349,7 @@ a.email-ko{
 /*THIS IS PADDING*/
 
 .padding{
-    padding-top: 90px;  
+    padding-top: 90px;
 }
 /*Meduia Query*/
 @media (max-width: 992px){
@@ -361,7 +361,7 @@ a.email-ko{
         color: rgb(11, 150, 230);
         text-transform: uppercase;
         font-weight: 600;
-        text-shadow: 2px 2px rgb(58, 50, 52);  
+        text-shadow: 2px 2px rgb(58, 50, 52);
     }
     .lead{
         text-transform: uppercase;
@@ -382,14 +382,14 @@ a.email-ko{
         font-size: 2.9rem;
     }
     .padding{
-        padding-top: 50px;  
+        padding-top: 50px;
     }
     .footer_info p{
         line-height: 1.1;
      }
-     
+
 }
 @media (max-width: 576px){
-    
+
 }
 /*bootstrap padding*/

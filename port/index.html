@@ -397,7 +397,7 @@
        </div>
    </div>
    <div class="dev text-center mt-2">
-       <p>&copy; 2018 || Bandista Media<br>
+       <p>&copy; 2018 Bandista Media, All right reserve<br>
         Julius Sorio your developer</p>
    </div>
 </footer>
@@ -405,5 +405,25 @@
 <script src="../node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
 <script src="../node_modules/popper.js/dist/popper.min.js" charset="utf-8"></script>
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+<script>
+
+$('.cf a').on('click', function(event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(    
+      { 
+        scrollTop: $(hash).offset().top
+      },
+      800,
+      function() {
+        window.location.hash = hash;
+      }
+    );
+  }
+});
+</script>
 </body>
 </html>
